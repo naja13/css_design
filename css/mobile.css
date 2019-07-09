@@ -1,0 +1,30 @@
+@media (max-width: 600px){
+
+  .products {
+    display: inherit;
+    height: auto;
+    max-height: 700px;
+  }
+  .product {
+    margin-top: auto;
+  }
+
+  .main_section {
+    padding: 4%;
+  }
+
+
+  .lomas, .mentions {
+    display: inherit;
+    justify-content: center;
+  }
+
+  .loma{
+    width: auto;
+  }
+
+  .mention {
+    justify-content: center;
+    margin: auto;
+  }
+} 

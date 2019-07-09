@@ -1,0 +1,228 @@
+/* ////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//////////////////////////////////////////////// */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* -----------------------Variables */
+:root {
+  --green-color:#7ACC2D;
+  --white-color:white;
+  --black-color:#505152;
+  /* Tipografía */
+  --normal: 12px;
+  /* Espaciado */
+  --space: 10px;
+  /* Box shadow */
+  --box: 0px 0 2px 1px #e6e5e9;
+ }
+
+
+/* -----------------------Variables */
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  color: var(--black-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, label {
+  font-size: var(--normal);
+}
+
+/* ______________________________Nabvar */
+
+
+
+nav {
+  /* Ubica los elementos de nav horizontalmente */
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  /* Abre espacio entre los elementos de nav */
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  padding-left: 20px;
+  display: flex;
+}
+
+nav li {
+  padding-right: var(--space);
+  list-style: none;
+}
+
+nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: var(--white-color);
+}
+
+/* ______________________________Main_section */
+
+.main_section {
+  padding: 10%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/curve.webp");
+  background-size: cover;
+  background-position: center top;
+  max-height: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding: var(--space);
+  margin-top: -100px;
+}
+
+.product .content {
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.image_content {
+  text-align: center;
+}
+
+.main_button{
+  width: 100%;
+  background-color: var(--green-color);
+  font-size: 16px;
+  padding: var(--space);
+  text-decoration: none;
+  color: var(--black-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover {
+  color: var(--white-color);
+  background-color: #5E9E22;
+}
+
+.lomas {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.loma{
+  padding: 20px;
+  width: 250px;
+}
+
+img.img2{
+  width: 100px; height: 100px;
+}
+
+.txl {
+  text-align: center;
+}
+
+
+.hr{
+  background-color: #d8dfe6;
+  height: 1px;
+}
+
+.th_section {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.mentions{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.mention_conteiner {
+  padding: 10px;
+}
+
+.mention {
+  /* padding: var(--space); */
+  box-shadow: 0px 0 2px 1px #dedede;
+  width: 239px;
+
+}
+
+.mention_text {
+  padding: 10px;
+}
+
+
+.foo {
+  background-color: var(--black-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f {
+  color: var(--white-color);
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.color-r{
+  background-color: red;
+}
+.color-b{
+  background-color: blue;
+}
+
+
+/* Aquí vienen los estilos de products */
+
+.space-top {
+  padding-top: 100px;
+}
+
+.img-p {
+  width: 230px; height: 230px;
+
+}
+
+/* Aquí vienes los estios de sales */
+
+.img-s {
+  text-align: center;
+}
+
+.payment_module {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+
+.data {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.payment_module .main_button {
+  margin-top: 10px;
+}
